@@ -1,4 +1,14 @@
+var Game = React.createClass({
+  render: function() {
+    return (
+      <div id="game">
+        <h1>Play Nine</h1>
+      </div>
+    );
+  }
+});
+
 React.render(
-  <h1>Rendered from React</h1>,
-  document.getElementById('example')
+  <Game />,
+  document.getElementById('mainContainer')
 );
