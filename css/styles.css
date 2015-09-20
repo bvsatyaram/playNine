@@ -9,13 +9,14 @@
 #button-frame {
   width: 20%;
   float: left;
-  text-align: center; }
+  text-align: center;
+  margin-top: 1em; }
 
 #answer-frame {
   width: 20%;
   float: left; }
 
-#numbers-frame .number {
+#numbers-frame .number, #answer-frame .number {
   display: inline-block;
   font-size: 1.5em;
   background-color: #888;
@@ -25,7 +26,11 @@
   line-height: 1.5em;
   text-align: center;
   border-radius: 50%;
-  margin: 0 0.5em;
+  margin: 0.5em;
   cursor: pointer; }
+  #numbers-frame .number.selected-true, #answer-frame .number.selected-true {
+    background-color: #CCC;
+    color: #DDD;
+    cursor: not-allowed; }
 
 /*# sourceMappingURL=styles.css.map */
