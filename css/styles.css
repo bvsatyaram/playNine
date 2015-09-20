@@ -32,5 +32,9 @@
     background-color: #CCC;
     color: #DDD;
     cursor: not-allowed; }
+  #numbers-frame .number.used-true, #answer-frame .number.used-true {
+    background-color: #bbDDbb;
+    color: #668866;
+    cursor: not-allowed; }
 
 /*# sourceMappingURL=styles.css.map */

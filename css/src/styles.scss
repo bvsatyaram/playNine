@@ -40,5 +40,11 @@
       color: #DDD;
       cursor: not-allowed;
     }
+    
+    &.used-true {
+      background-color: #bbDDbb;
+      color: #668866;
+      cursor: not-allowed;
+    }
   }
 }
